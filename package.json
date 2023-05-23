@@ -1,0 +1,25 @@
+{
+  "name": "sd-026-b-project-recipes-app-full-stack",
+  "version": "1.0.0",
+  "description": "Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "docker-compose up -d --build",
+    "compose:down": "docker-compose down --remove-orphans",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-026-b-project-recipes-app-full-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-026-b-project-recipes-app-full-stack/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-026-b-project-recipes-app-full-stack#readme",
+  "dependencies": {
+    "jotai": "^2.1.0"
+  }
+}
